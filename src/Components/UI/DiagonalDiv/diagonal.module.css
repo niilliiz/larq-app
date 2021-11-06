@@ -1,0 +1,22 @@
+.diagonalDiv {
+    display: block;
+    background: #f5f9fc;
+    position: absolute;
+    pointer-events: none;
+}
+
+.smart_diagnal_1 {
+    top: calc(100%-5px);
+    width: 2000%;
+    height: 100%;
+    transform: skew(0, -22.2deg);
+    left: -1000%;
+}
+
+.smart_diagnal_2 {
+    top: 170%;
+    width: 2000%;
+    height: 100%;
+    transform: skew(0, -22.2deg);
+    left: -1000%;
+}

@@ -1,0 +1,17 @@
+.header_section {
+    box-shadow: 1px 2px 2px #b3b3b3;
+    height: 50px;
+    z-index: 1000;
+    position: sticky;
+    /* position: relative; */
+    position: -webkit-sticky;
+    top: 0;
+    left: 0;
+    margin-bottom: 0;
+    background-color: white;
+    opacity: 0.9;
+}
+
+.header_container {
+    /* z-index: 800; */
+}

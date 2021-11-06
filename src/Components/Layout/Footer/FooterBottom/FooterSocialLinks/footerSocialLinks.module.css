@@ -1,0 +1,5 @@
+.footerBottomLinks_lists {
+    text-align: center;
+    display: flex;
+    flex-flow: row nowrap;
+}

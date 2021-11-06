@@ -1,38 +1,108 @@
+:root {
+    --clr-primary: #153a5b;
+    --clr-secondary: #5a5e60;
+    --clr-accent: #ee7470;
+    --bg-secondary: #f5f9fc;
+}
+
+
+/**------------Global-------**/
+
 .App {
-  text-align: center;
+    text-align: center;
+    line-height: 1.6;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    font-size: 0.9375rem;
+    padding: 0;
+    margin: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+div {
+    padding: 0;
+    margin: 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+button,
+a,
+input,
+textarea {
+    font-family: inherit;
+    color: inherit;
+    border: none;
 }
 
-.App-link {
-  color: #61dafb;
+a,
+button {
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+    /* color: inherit; */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+li {
+    list-style: none;
+}
+
+ul {
+    display: flex;
+}
+
+i {
+    color: inherit;
+}
+
+img {
+    max-width: 100%;
+    border-style: none;
+    vertical-align: middle;
+}
+
+
+/**-----------ICON*/
+
+.fa-angle-down {
+    font-weight: bold;
+    margin-left: 3px;
+}
+
+.header_container {
+    width: 93%;
+    margin: 1rem auto;
+}
+
+@media (max-width: 45.1875em) {
+    .header_container {
+        width: 100%;
+        margin: auto;
+    }
+}
+
+
+/**----------ICON STYLES---------*/
+
+.fa {
+    font-weight: bold;
+}
+
+@media (min-width: 45.1876em) {
+    .fa-angle-right {
+        display: none;
+    }
+}
+
+
+/**-----------------SMART CARD*/
+
+.smartCard_anchor {
+    font-size: 1.333333333rem;
+    text-decoration: underline;
+}
+
+.smartCard_anchor:hover {
+    text-decoration: none;
 }

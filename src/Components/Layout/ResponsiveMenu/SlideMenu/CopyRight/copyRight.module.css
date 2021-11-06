@@ -1,0 +1,14 @@
+.copy_area {
+    display: flex;
+    justify-content: space-between;
+    margin: 0.1rem;
+}
+
+.copy_caption {
+    color: var(--clr-primary);
+    font-size: 0.75rem;
+}
+
+.copy_mail {
+    text-decoration: underline;
+}

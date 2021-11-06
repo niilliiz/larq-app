@@ -1,0 +1,27 @@
+.showProducts_area {
+    /* overflow: hidden; */
+    /* border: 1px solid green; */
+    z-index: 500;
+    position: relative;
+    /* padding: 0 5%; */
+    /* margin: 0px 0px 0.66667rem 0px; */
+}
+
+@media (min-width: 60em) {
+    .grid_area {
+        margin: 0 0 3.3333rem 0;
+    }
+}
+
+@media (min-width: 45.25em) {
+    .grid_area {
+        margin: 0 0 6.66667rem 0;
+    }
+}
+
+.grid_area {
+    z-index: 500;
+    position: relative;
+    padding: 0 5%;
+    margin: 0px 0px 0.66667rem 0px;
+}

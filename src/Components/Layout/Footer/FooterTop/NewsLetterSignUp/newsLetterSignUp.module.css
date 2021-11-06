@@ -1,0 +1,17 @@
+.signUp_area {
+    padding: 1.5rem;
+}
+
+.signUp_caption {
+    margin-bottom: 0.8rem;
+    color: #fff;
+    font-size: 0.89rem;
+    line-height: 1.6;
+    text-align: center;
+}
+
+@media (min-width: 60em) {
+    .signUp_caption {
+        text-align: center;
+    }
+}

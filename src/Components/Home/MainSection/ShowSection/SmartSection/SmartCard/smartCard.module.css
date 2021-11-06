@@ -1,0 +1,59 @@
+.smartCard_area {
+    width: 100%;
+    height: max-content;
+    max-width: 21rem;
+    text-align: center;
+    z-index: 500;
+    margin: 0 auto;
+    /* border: 1px solid orange; */
+}
+
+.smartCard_container {
+    display: flex;
+    flex-flow: column nowrap;
+    margin: 0 auto;
+    width: 80%;
+    margin-bottom: 2rem;
+}
+
+.smartCard_caption {
+    color: var(--clr-secondary);
+    margin-bottom: 2.3rem;
+    text-align: center;
+}
+
+.smartCard_info {
+    font-size: 1rem;
+    font-style: italic;
+}
+
+@media (max-width: 43.6875em) {
+    .smartCard_info {
+        font-size: 1rem;
+    }
+    .smartCard_info {
+        font-size: 0.86667rem;
+    }
+}
+
+.lowerElement {
+    margin-top: 25%;
+}
+
+.upperElement {
+    margin-top: 6%;
+}
+
+.upperElement .smartCard_info .smartCard_anchor {
+    font-size: 1.333333333rem;
+    text-decoration: underline;
+}
+
+.upperElement .smartCard_info:hover {
+    text-decoration: none;
+}
+
+.lowerElement .smartCard_info {
+    font-size: 0.866667rem;
+    font-style: italic;
+}

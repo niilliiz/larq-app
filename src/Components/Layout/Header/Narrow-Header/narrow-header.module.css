@@ -1,0 +1,11 @@
+.narrow_header {
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (min-width: 45.25em) {
+    .narrow_header {
+        display: none;
+    }
+}

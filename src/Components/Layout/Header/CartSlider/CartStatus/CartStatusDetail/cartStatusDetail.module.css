@@ -1,0 +1,13 @@
+.cart_detail {
+    padding: 2.33334rem 1.33333rem 0.13333rem;
+    margin-bottom: 0.66667rem;
+    margin: 0 auto;
+    width: 100%;
+}
+
+@media (min-width: 724px) {
+    .cart_detail {
+        padding: 2.33334rem 2.66667rem 0.13333rem;
+        margin-bottom: 0;
+    }
+}

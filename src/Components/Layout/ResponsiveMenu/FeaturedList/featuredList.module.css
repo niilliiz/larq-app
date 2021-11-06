@@ -1,0 +1,10 @@
+.feature_display {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 45.1876em) {
+    .feature_display {
+        flex-flow: column nowrap;
+    }
+}

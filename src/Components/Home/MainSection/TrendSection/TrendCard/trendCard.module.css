@@ -1,0 +1,61 @@
+.trendCrd_area {
+    position: relative;
+    flex-basis: 100%;
+    margin: 0 auto;
+}
+
+.trendCard_container {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+@media (min-width: 60em) {
+    .trendCard_container {
+        max-width: 24rem;
+    }
+}
+
+.trend_img_container {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.trend_caption_container {
+    display: flex;
+    flex-flow: column nowrap;
+    text-align: center;
+    /* height: min-content; */
+    margin: auto;
+    padding: 0;
+    /* padding: 0.5rem 0; */
+}
+
+@media (max-width: 47.4375em) {
+    .trendCard_container {
+        flex-flow: row nowrap;
+        justify-content: flex-start;
+        align-content: center;
+        gap: 0;
+    }
+    .trend_caption_container {
+        width: 55%;
+        align-self: flex-start;
+    }
+}
+
+@media (max-width: 31.25em) {
+    .trendCard_container {
+        flex-flow: column nowrap;
+        justify-content: flex-start;
+        align-content: center;
+        gap: 0;
+    }
+    .trend_caption_container {
+        width: 55%;
+        align-self: flex-start;
+    }
+}

@@ -1,0 +1,11 @@
+@media (max-width: 46em) {
+    .cart {
+        margin-top: 0.6rem;
+        margin-right: 0.7rem;
+    }
+}
+
+.cart {
+    margin-top: 0.8rem;
+    cursor: pointer;
+}

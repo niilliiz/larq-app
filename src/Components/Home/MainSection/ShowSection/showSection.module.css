@@ -1,0 +1,11 @@
+.showSection_area {
+    width: 100%;
+    position: relative;
+    margin-top: 5rem;
+    overflow: hidden;
+}
+
+.showSection_container {
+    z-index: 500;
+    position: relative;
+}

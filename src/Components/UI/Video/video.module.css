@@ -1,0 +1,15 @@
+.smartSection_video {
+    width: 100%;
+    max-width: 100%;
+    z-index: 500;
+    /* height: 100%; */
+    /* object-fit: contain; */
+}
+
+.grid_video {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+    object-position: 50% 50%;
+}

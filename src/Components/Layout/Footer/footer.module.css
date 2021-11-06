@@ -1,0 +1,15 @@
+.footer_area {
+    background: var(--clr-primary);
+    padding: 3.25rem 0 1.7rem;
+    color: #fff;
+    letter-spacing: 0.75px;
+    text-align: center;
+    margin-top: 10rem;
+}
+
+
+/* @media (min-width: 45.25em) {
+    .footer_area {
+        text-align: left;
+    }
+} */

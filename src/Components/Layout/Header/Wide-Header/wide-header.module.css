@@ -1,0 +1,20 @@
+.wide_header {
+    display: flex;
+    justify-content: space-between;
+    z-index: 700;
+    margin-bottom: 0;
+    /* max-height: 200px; */
+    /* border-bottom: 2px solid #eee; */
+}
+
+.header_secondCol {
+    display: flex;
+    justify-content: space-between;
+    /* position: sticky; */
+}
+
+@media (max-width: 45.1875em) {
+    .wide_header {
+        display: none;
+    }
+}

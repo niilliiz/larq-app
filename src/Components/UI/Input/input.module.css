@@ -1,0 +1,15 @@
+.input_newsletter {
+    font-weight: inherit;
+    color: var(--clr-primary);
+    font-family: inherit;
+    padding: 0.4rem 0.8rem;
+    border: 0px;
+    border-radius: 2px;
+    margin: 0px;
+    display: block;
+    min-width: 0px;
+    width: 100%;
+    font-size: 0.9rem;
+    height: 2.33333rem;
+    /* text-align: left; */
+}

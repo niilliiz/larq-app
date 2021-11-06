@@ -1,0 +1,14 @@
+.form_area {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* border: 1px solid red; */
+}
+
+@media (min-width: 45.25em) {
+    .form_area {
+        flex-direction: row;
+        /* justify-content: flex-start; */
+        align-items: flex-start;
+    }
+}

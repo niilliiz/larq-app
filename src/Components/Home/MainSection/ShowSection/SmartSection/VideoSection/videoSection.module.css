@@ -1,0 +1,22 @@
+.video_area {
+    position: relative;
+    /* z-index: 500; */
+}
+
+.video_container {
+    margin: 2.3333rem auto;
+    max-width: 24.66667rem;
+    min-width: 18rem;
+}
+
+@media (min-width: 45.25em) {
+    .video_area {
+        align-self: flex-start;
+    }
+}
+
+@media (max-width: 45.25em) {
+    .video_area {
+        z-index: 500;
+    }
+}

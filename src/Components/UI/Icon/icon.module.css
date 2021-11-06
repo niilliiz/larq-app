@@ -1,0 +1,20 @@
+.fa-angle-down {
+    font-weight: bold;
+}
+
+.icon {
+    cursor: pointer;
+    /* background-color: transparent; */
+}
+
+@media (min-width: 45.1876em) {
+    .fa-angle-right {
+        display: none;
+    }
+}
+
+@media (max-width: 45.1875em) {
+    .logo {
+        margin-top: 1rem;
+    }
+}

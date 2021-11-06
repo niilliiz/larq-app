@@ -1,0 +1,24 @@
+.footerNav_area {
+    text-align: center;
+}
+
+.footerNav_container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+@media (min-width: 45.25em) {
+    .footerNav_area {
+        flex-wrap: nowrap;
+        text-align: left;
+    }
+}
+
+
+/* @media (max-width: 45em) {
+    .footerNav_area {
+        text-align: left;
+    }
+} */

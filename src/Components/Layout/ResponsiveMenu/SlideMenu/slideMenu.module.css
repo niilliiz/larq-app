@@ -1,0 +1,25 @@
+.slideMenu_area {
+    position: fixed;
+    background-color: var(--bg-secondary);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    margin-top: 2px;
+    transition: transform 0.5s ease-out;
+    z-index: 1000;
+}
+
+.slide_open {
+    transform: translateX(0%);
+}
+
+.slide_close {
+    transform: translateX(-100%);
+}
+
+@media (min-width: 46em) {
+    .slideMenu_area {
+        display: none;
+    }
+}

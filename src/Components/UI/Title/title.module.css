@@ -1,0 +1,104 @@
+.top_title {
+    color: var(--clr-primary);
+    font-weight: bolder;
+    font-size: 1.6rem;
+    text-align: center;
+}
+
+@media (min-width: 50em) {
+    .top_title {
+        font-size: 2rem;
+    }
+}
+
+
+/**------------MAIN SECTION-------*/
+
+.title_mainSection {
+    padding: relative;
+    font-size: 2.6667rem;
+    color: var(--clr-primary);
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 0 auto;
+    margin-bottom: rem;
+    /* max-width: 40rem; */
+}
+
+.title_mainSection::after {
+    display: block;
+    content: "";
+    width: 50px;
+    background-color: var(--clr-accent);
+    height: 6px;
+    position: absolute;
+    left: 50%;
+    margin-left: -20px;
+    margin-top: 10px;
+    border-radius: 3px;
+}
+
+@media (max-width: 45.25em) {
+    .title_mainSection {
+        font-size: 2.3333rem;
+        margin-bottom: 3rem;
+    }
+}
+
+
+/**----------------TREND CARD----------*/
+
+.trend_subTitle {
+    font-size: 1rem;
+    color: var(--clr-secondary);
+    margin-top: 1rem;
+}
+
+.trend_title {
+    font-size: 1.6rem;
+    font-weight: bolder;
+    color: var(--clr-primary);
+    margin-top: 0.5rem;
+}
+
+
+/**--------------------SMART CARD---------------*/
+
+.smartCard_title {
+    font-size: 2.5333rem;
+    color: var(--clr-primary);
+    width: 100%;
+    margin: 1.333rem auto;
+    font-weight: bolder;
+}
+
+@media (max-width: 45.25em) {
+    .smartCard_title {
+        font-size: 1.333333333rem;
+        /* border: 1px solid red; */
+    }
+}
+
+@media (max-width: 56.25em) {
+    .smartCard_title {
+        font-size: 2.2rem;
+        /* border: 1px solid red; */
+    }
+}
+
+
+/**------------------------------SHOW PRODUCTS SECTION*/
+
+.gridLink_title {
+    margin: 0 0 2rem 0;
+    background: transparent;
+    font-size: 1.333333333rem;
+    line-height: 2rem;
+}
+
+@media (min-width: 60em) {
+    .gridLink_title {
+        font-size: 2.533333333rem;
+        line-height: 3.733333333rem;
+    }
+}

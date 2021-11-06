@@ -1,0 +1,17 @@
+.showProducts_grid {
+    /* border: 1px solid blue; */
+    margin: 0 auto;
+    position: relative;
+    max-width: 80rem;
+    grid-gap: 0.8rem;
+    display: block;
+    margin-top: 5rem;
+}
+
+@media (min-width: 38.75em) {
+    .showProducts_grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
+}

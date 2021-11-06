@@ -1,0 +1,68 @@
+div {
+    margin: 0;
+    padding: 0;
+}
+
+.img_featured {
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    margin-bottom: 3px;
+}
+
+.toggle_logo {
+    width: 30%;
+    margin: 15px;
+}
+
+.img_showCase {
+    border: none;
+    margin-top: 2px;
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 94vh;
+    box-shadow: 0 -2px 5px #bbb;
+    background-origin: border-box;
+}
+
+@media (min-width: 35em) {
+    .img_showCase {
+        height: 80vh;
+    }
+}
+
+
+/**------------------------TREND IMAGE------------------*/
+
+.trend_img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+@media (max-width: 47.4375em) {
+    .trend_img {
+        width: 75%;
+        margin: 1px auto;
+    }
+}
+
+
+/**----------------------------SHOWPRODUCTS IMAGES*/
+
+.grid_img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+    object-position: 50% 50%;
+    transform: scale(1);
+}
+
+
+/**-------------------------CLOSE IMAGE CART */
+
+.img_close {
+    cursor: pointer;
+}

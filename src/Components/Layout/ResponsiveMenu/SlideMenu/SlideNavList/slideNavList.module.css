@@ -1,0 +1,17 @@
+.slideNavList_area {
+    padding: 0;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    /* padding-left: 10px; */
+}
+
+.slideNavList_area>* {
+    border-bottom: 1px solid #eee;
+}
+
+.slideSubItem_area {
+    padding: 0;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    border-bottom: 1px solid #eee;
+}

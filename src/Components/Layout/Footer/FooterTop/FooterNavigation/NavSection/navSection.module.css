@@ -1,0 +1,25 @@
+.navSection_area {
+    margin: 0;
+    max-width: 100%;
+}
+
+.navSection_container {
+    padding: 1.5rem;
+}
+
+.navSec_title {
+    margin: 0 0 1rem 0;
+    /* color: #fff; */
+    font-size: 15px;
+}
+
+.navSec_lists {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+@media (min-width: 45.25em) {
+    .navSection_area {
+        max-width: 33.333333333%;
+    }
+}

@@ -1,0 +1,35 @@
+.firstBorder {
+    align-self: flex-end;
+    border: 2px solid var(--clr-primary);
+    margin: 0 auto;
+    padding: 0;
+    width: 14rem;
+    height: 3rem;
+    position: relative;
+    border-radius: 3px;
+}
+
+.firstBorder:hover,
+.firstBorder:focus {
+    border: none;
+}
+
+.button {
+    position: absolute;
+    width: 14.3rem;
+    height: 3rem;
+    /* top: 10px; */
+    bottom: 5px;
+    right: 5px;
+    background-color: var(--clr-primary);
+    color: white;
+    font-weight: bolder;
+    border: 2px solid var(--clr-primary);
+    border-radius: 3px;
+}
+
+.button:hover,
+.button:focus {
+    background-color: white;
+    color: var(--clr-primary);
+}

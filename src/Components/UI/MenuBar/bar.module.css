@@ -1,0 +1,37 @@
+.bars {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 35px;
+    height: 35px;
+    justify-content: space-evenly;
+    cursor: pointer;
+    padding: 0;
+    border: none;
+    margin-left: 15px;
+}
+
+.bars>* {
+    border-radius: 2px;
+    cursor: pointer;
+    width: 95%;
+    height: 2px;
+    background-color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+@media (max-width: 45.1875em) {
+    .bars {
+        margin-top: 0.5rem;
+    }
+}
+
+.toggle_img {
+    background-color: var(--clr-primary);
+    margin: 0;
+    padding: 0;
+    width: 55px;
+    height: 50px;
+    cursor: pointer;
+    border-radius: 0 2.5px 2.5px 0;
+}

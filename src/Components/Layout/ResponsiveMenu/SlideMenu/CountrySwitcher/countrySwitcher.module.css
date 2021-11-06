@@ -1,0 +1,8 @@
+.countrySwitch_area {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 1rem 10px;
+    margin: 0.4rem auto;
+    border-bottom: 1px solid #eee;
+}

@@ -1,0 +1,46 @@
+.footerTop_area {
+    margin: 0 auto;
+    max-width: 90rem;
+    margin-bottom: 1.733333333rem;
+}
+
+.footerTop_container {
+    /* border: 1px solid red; */
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.newsLetter_area {
+    /* border: 1px solid yellow; */
+    margin: 0;
+    flex-grow: 0;
+    max-width: 100%;
+    flex-basis: 100%;
+    order: 1;
+}
+
+.navSec_area {
+    /* border: 1px solid white; */
+    margin: 0;
+    flex-grow: 0;
+    max-width: 100%;
+    flex-basis: 100%;
+    order: 2;
+}
+
+@media (min-width: 60em) {
+    .newsLetter_area {
+        order: 2;
+        flex-grow: 0;
+        max-width: 41.6666667%;
+        flex-basis: 41.6666667%;
+    }
+    .navSec_area {
+        order: 1;
+        flex-grow: 0;
+        max-width: 58.3333333%;
+        flex-basis: 58.3333333%;
+    }
+}

@@ -1,0 +1,12 @@
+.cartStatus_container {
+    display: flex;
+    flex-flow: column nowrap;
+    min-height: calc(100vh - 3.2rem);
+    /* border: 1px solid green; */
+}
+
+@media (min-width: 724px) {
+    .cartStatus_container {
+        min-height: calc(100vh - 4.53333rem);
+    }
+}
