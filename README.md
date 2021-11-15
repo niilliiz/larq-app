@@ -19,7 +19,7 @@ You will also see any lint errors in the console.
 
 ### Project Status
 
-- now, it's in a static state, only most noticeable part of the home page has done.
+- now, it's in a static state, only most noticeable part of the home page has done. I used firebase database to store the data. you may need vpn to see the shop page
 
 #### Future Changes
 
