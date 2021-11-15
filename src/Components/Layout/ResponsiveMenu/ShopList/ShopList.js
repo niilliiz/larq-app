@@ -1,13 +1,13 @@
 import React from "react";
 import ListItem from "../../../UI/ListItem/ListItem";
-import Icon from "../../../UI/Icon/Icon";
+// import Icon from "../../../UI/Icon/Icon";
 
 import classes from "./shopList.module.css";
 const shopList = (props) => {
   return (
     <div className={classes.shop_area}>
       <h3 className={classes.shop_title}>
-        Shop <Icon classType="fa fa-angle-down" />
+        Shop <i className="fa fa-angle-down"></i>
       </h3>
       <ul className={classes.shop_list}>
         <ListItem classType="dropDown_shopList"> All Products </ListItem>

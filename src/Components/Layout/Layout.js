@@ -10,7 +10,6 @@ class Layout extends Component {
     showCartMenu: false,
   };
   showMenuHandler = (e, elmnt) => {
-    console.log(elmnt);
     if (elmnt === "slide") {
       this.setState({ showSlideMenu: true });
     } else if (elmnt === "cart") {
@@ -41,8 +40,7 @@ class Layout extends Component {
         >
           <Header />
         </MenuContext.Provider>
-        {this.props.children}
-        <Footer />
+        {this.props.children} <Footer />
       </div>
     );
   }

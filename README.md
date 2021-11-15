@@ -23,5 +23,5 @@ You will also see any lint errors in the console.
 
 #### Future Changes
 
-1.  complete the shop page using the outsourced data.
+1.  complete the shop page using the outsourced data. -> done
 2.  add routing to the project.

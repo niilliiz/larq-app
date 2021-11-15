@@ -1,0 +1,43 @@
+.row2_area {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.price_area {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: flex-end;
+}
+
+.price {
+    color: var(--clr-primary);
+    display: block;
+    font-size: 1.33333rem;
+    line-height: 1.33333rem;
+    font-weight: bolder;
+}
+
+.price_onSale {
+    color: var(--clr-secondary);
+    font-size: 1.06667rem;
+    line-height: 1.06667rem;
+    padding-left: 0.8rem;
+    text-decoration: line-through;
+}
+
+.row2_status__area {
+    display: flex;
+    font-size: 0.86667rem;
+    text-align: right;
+    margin-left: 1rem;
+    line-height: 0.93333rem;
+    flex-shrink: 0;
+    align-items: center;
+}
+
+.status_caption {
+    color: var(--clr-secondary);
+    font-size: 0.86667rem;
+}

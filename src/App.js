@@ -4,12 +4,14 @@ import Layout from "./Components/Layout/Layout";
 import Home from "./Components/Home/Home";
 
 import "./App.css";
+import ProductsBuilder from "./Container/ProductsBuilder/ProductsBuilder";
 class App extends Component {
   render() {
     return (
       <Aux>
         <Layout>
-          <Home />
+          {/* <Home /> */}
+          <ProductsBuilder />
         </Layout>
       </Aux>
     );

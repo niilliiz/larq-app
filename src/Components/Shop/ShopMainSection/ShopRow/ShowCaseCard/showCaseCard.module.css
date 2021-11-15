@@ -1,0 +1,96 @@
+.cardInfo_area {
+    display: flex;
+    position: relative;
+    overflow: hidden;
+}
+
+.cardInfo_img {
+    width: 100%;
+    height: 100%;
+}
+
+.cardInfo_feature {
+    position: absolute;
+    left: 0;
+    right: 0;
+    color: white;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0.5rem 0.8rem;
+    background-color: rgb(33, 42, 47);
+    transition: all 250ms ease 0s;
+    line-height: 2.53333rem;
+    font-size: 2rem;
+}
+
+.cardInfo_feature_caption {
+    margin: 0;
+    padding-right: 0 3.2rem 0 0;
+    position: relative;
+    font-size: 1.0555rem;
+    transition: all 250ms ease 0s;
+    line-height: 1.5;
+}
+
+.arrowUp {
+    position: absolute;
+    display: inline-block;
+    margin: 0;
+    right: 0px;
+    top: 2px;
+}
+
+.cardInfo_description_area {
+    /* border: 1px solid yellow; */
+    display: flex;
+    flex-direction: column;
+    color: white;
+    position: absolute;
+    padding: 2.4rem;
+    inset: 0;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    transition: all 250ms ease 0s;
+    opacity: 0;
+}
+
+.cardInfo_description_container {
+    width: 100%;
+    font-size: 1.06667;
+    line-height: 1.5;
+}
+
+.cardInfo_desc_lists {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+
+.desc_item {
+    list-style: circle;
+    margin-bottom: 0.66667rem;
+}
+
+.cardInfo_area:hover .cardInfo_description_area {
+    opacity: 1;
+}
+
+.cardInfo_area:hover .cardInfo_feature {
+    background: rgba(33, 42, 47, 0.85);
+    padding-top: 115%;
+}
+
+.cardInfo_area:hover .cardInfo_feature_caption {
+    opacity: 0;
+    margin-top: 0;
+}
+
+@media (min-width: 60em) {
+    .cardInfo_feature {
+        font-size: 3.66667rem;
+        line-height: 5.06667rem;
+    }
+}

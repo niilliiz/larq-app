@@ -7,16 +7,16 @@ const footerSocialLinks = (props) => {
   return (
     <ul className={classes.footerBottomLinks_lists}>
       <List classType="list_footerBottom_socialLinks">
-        <Icon classType="fa fa-facebook"></Icon>
+        <i className="fa fa-facebook"> </i>
       </List>
       <List classType="list_footerBottom_socialLinks">
-        <Icon classType="fa fa-twitter-square"></Icon>
+        <i className="fa fa-twitter-square"> </i>
       </List>
       <List classType="list_footerBottom_socialLinks">
-        <Icon classType="fa fa-instagram"></Icon>
+        <i className="fa fa-instagram"> </i>
       </List>
       <List classType="list_footerBottom_socialLinks">
-        <Icon classType="fa fa-youtube-play"></Icon>
+        <i className="fa fa-youtube-play"> </i>
       </List>
     </ul>
   );

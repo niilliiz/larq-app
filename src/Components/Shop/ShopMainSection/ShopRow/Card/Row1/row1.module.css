@@ -1,0 +1,28 @@
+.row1_area {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    margin: 1.33333rem 0 0.4rem 0;
+}
+
+.row1_caption {
+    color: var(--clr-primary);
+    font-size: 1rem;
+    letter-spacing: 0.25px;
+}
+
+.row1_btn__area {
+    padding-left: 1rem;
+    padding-top: 0.2rem;
+    flex-shrink: 0;
+    display: block;
+}
+
+.row1_btn {
+    color: #6f7f77;
+    display: block;
+    text-decoration: underline;
+    font-size: 0.86667rem;
+    margin-bottom: 0.233333rem;
+    margin-right: 0.1333rem;
+}

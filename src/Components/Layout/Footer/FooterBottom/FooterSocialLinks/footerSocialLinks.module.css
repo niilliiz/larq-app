@@ -2,4 +2,7 @@
     text-align: center;
     display: flex;
     flex-flow: row nowrap;
+    width: 80%;
+    /* margin: 0 auto; */
+    justify-content: space-evenly;
 }

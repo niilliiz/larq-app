@@ -15,7 +15,7 @@ const navItems = (props) => {
             mouseOver={context.showingMenu}
             mouseOut={context.hidingMenu}
           >
-            Products <Icon classType="fa fa-angle-down" />
+            Products <i className="fa fa-angle-down"> </i>
           </List>
         )}
       </MenuContext.Consumer>

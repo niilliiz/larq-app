@@ -1,0 +1,21 @@
+.shopMenuBar__bigScreen {
+    min-height: 50px;
+    /* display: none; */
+}
+
+.shopMenuBar_area {
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: block;
+    z-index: 1;
+    padding: 0 1.5rem;
+    position: relative;
+    min-height: 50px;
+}
+
+@media (min-width: 45.25em) {
+    .shopMenuBar__bigScreen {
+        display: block;
+    }
+}

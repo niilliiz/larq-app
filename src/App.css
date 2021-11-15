@@ -27,6 +27,15 @@ div {
     margin: 0;
 }
 
+button {
+    border: none;
+    margin: 0;
+    cursor: pointer;
+    padding: 0;
+    text-decoration: none;
+    background-color: transparent;
+}
+
 button,
 a,
 input,
@@ -50,6 +59,7 @@ li {
 
 ul {
     display: flex;
+    /* list-style-position: outside; */
 }
 
 i {
@@ -65,7 +75,17 @@ img {
 
 /**-----------ICON*/
 
-.fa-angle-down {
+.fa {
+    font-size: 1.3rem;
+}
+
+.fa.fa-angle-up {
+    font-size: 1rem;
+    font-weight: bolder;
+}
+
+
+/* .fa-angle-down {
     font-weight: bold;
     margin-left: 3px;
 }
@@ -73,7 +93,7 @@ img {
 .header_container {
     width: 93%;
     margin: 1rem auto;
-}
+} */
 
 @media (max-width: 45.1875em) {
     .header_container {
@@ -105,4 +125,23 @@ img {
 
 .smartCard_anchor:hover {
     text-decoration: none;
+}
+
+
+/**----------------------------CARD: STATUS*/
+
+.fa-spinner {
+    color: #f3756d;
+    margin-bottom: 0.2rem;
+    margin-right: 0.25rem;
+    font-weight: bolder;
+    /* background-color: #f3756d; */
+}
+
+.fa-cart-plus {
+    color: rgba(204, 204, 204);
+}
+
+.fa-cart-plus:hover {
+    color: #f3756d;
 }

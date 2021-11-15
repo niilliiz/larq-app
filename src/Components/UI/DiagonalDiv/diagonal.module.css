@@ -1,6 +1,6 @@
 .diagonalDiv {
     display: block;
-    background: #f5f9fc;
+    background: var(--bg-secondary);
     position: absolute;
     pointer-events: none;
 }

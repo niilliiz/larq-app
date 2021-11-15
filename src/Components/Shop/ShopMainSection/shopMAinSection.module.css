@@ -1,0 +1,31 @@
+.shop_mainArea {
+    width: 100%;
+    padding: 2rem 1.5rem 0 1.5rem;
+    display: flex;
+    flex-direction: column;
+    /* margin-top: 2rem; */
+    /* border: 1px solid red; */
+}
+
+.shop_row {
+    /* border: 1px solid blue; */
+    width: 100%;
+    margin: 0 auto 2.66667rem;
+    max-width: 80.66667rem;
+}
+
+.shop_row_0 {
+    order: 4;
+}
+
+.shop_row_1 {
+    order: 1;
+}
+
+.shop_row_2 {
+    order: 3;
+}
+
+.shop_row_3 {
+    order: 2;
+}

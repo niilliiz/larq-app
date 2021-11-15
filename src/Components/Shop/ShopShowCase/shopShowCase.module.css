@@ -1,0 +1,103 @@
+.showCase_area {
+    width: 100%;
+    /* height: 92.6vh; */
+    padding: 0 5%;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    background-image: url(https://res.cloudinary.com/larq/image/fetch/q_auto,f_auto/https://res.cloudinary.com/larq/images/f_auto,q_auto/v1613344343/LARQ_Website_Homepage_Hero_1200x1738_256081bdb/LARQ_Website_Homepage_Hero_1200x1738_256081bdb.jpg);
+    margin-bottom: 1.5rem;
+}
+
+.showCase_container {
+    /* border: 1px solid red; */
+    text-align: center;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    height: calc(100vh - 55px);
+    min-height: 25.333333333rem;
+}
+
+.showCase_content {
+    /* border: 1px solid blue; */
+    display: flex;
+    flex-flow: column nowrap;
+    text-align: center;
+    color: white;
+}
+
+.showCase_header {
+    margin: 0 auto;
+    max-width: 26rem;
+    font-size: 2.133333333rem;
+    line-height: 1.1;
+}
+
+.showCase_caption {
+    line-height: 1.6;
+    margin: 1rem 0 0 0;
+    font-size: 1rem;
+}
+
+@media (min-width: 35em) {
+    .showCase_area {
+        background-image: url(https://res.cloudinary.com/larq/image/fetch/q_auto,f_auto/https://res.cloudinary.com/larq/images/f_auto,q_auto/v1613296144/LARQ_Website_Homepage_Hero_1600x1258/LARQ_Website_Homepage_Hero_1600x1258.jpg);
+    }
+    .showCase_container {
+        height: calc(66vh - 85px);
+        min-height: 320px;
+        max-height: 540px;
+    }
+}
+
+@media (min-width: 50em) {
+    .showCase_area {
+        background-image: url(https://res.cloudinary.com/larq/image/fetch/q_auto,f_auto/https://res.cloudinary.com/larq/images/f_auto,q_auto/v1613296144/LARQ_Website_Homepage_Hero_2400x1388/LARQ_Website_Homepage_Hero_2400x1388.jpg);
+    }
+    .showCase_container {
+        justify-content: center;
+        padding-top: 5px;
+        padding-bottom: 50px;
+        height: 66vh;
+        min-height: 450px;
+        max-height: none;
+        align-items: flex-start;
+    }
+    .showCase_content {
+        display: block;
+        max-width: 24rem;
+        text-align: left;
+    }
+    .showCase_header {
+        max-width: none;
+        font-size: 2.666666667rem;
+    }
+    .showCase_caption {
+        margin: 1.33333rem 0 0 0;
+        font-size: 1.333333333rem;
+    }
+}
+
+@media (min-width: 64.0625em) {
+    .showCase_area {
+        background-image: url(https://res.cloudinary.com/larq/image/fetch/q_auto,f_auto/https://res.cloudinary.com/larq/images/f_auto,q_auto/v1613296143/LARQ_Website_Homepage_Hero_2400x1100/LARQ_Website_Homepage_Hero_2400x1100.jpg);
+    }
+    .showCase_content {
+        max-width: 33.333333333rem;
+    }
+    .showCase_header {
+        font-size: 3.333333333rem;
+    }
+}
+
+@media (min-width: 87.5em) {
+    .showCase_container {
+        padding-right: 4%;
+        padding-left: 4%;
+    }
+}
