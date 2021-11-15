@@ -16,9 +16,9 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 ### Project Status
 
-- now, it's in a static state, only most noticeable part of the home page has done. I used firebase database to store the data. you may need vpn to see the shop page
+- Only most noticeable part of the home page and also shop page have done so far. I used firebase database to store the data. you may need vpn to see the shop page.
 
 #### Future Changes
 
-1.  complete the shop page using the outsourced data. -> done
+1.  complete the shop page using the outsourced data.
 2.  add routing to the project.
