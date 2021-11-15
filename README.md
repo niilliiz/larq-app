@@ -1,7 +1,7 @@
 # LARQ APP
 
 This project was created with [Create React App](https://github.com/facebook/create-react-app).
-This is a online shop for selling bottle. [livelarq](https://www.livelarq.com/) claims the credit for the designing part. it was only for practicing react and this was the only purpose.
+This is a online shop for selling bottle. [livelarq](https://www.livelarq.com/) claims the credit for the designing part. it's been being only for practicing react and this has been the only purpose.
 
 ## Available Scripts
 
@@ -13,9 +13,6 @@ In the project directory, you can run:
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
 ### Project Status
 
